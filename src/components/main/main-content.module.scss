@@ -1,0 +1,28 @@
+.subheader {
+    margin-bottom: 20px;
+}
+
+.name{
+    font-size: 0.875rem;
+    line-height: 1rem;
+    span {
+        color: #5095EC;
+    }
+}
+.comment {
+    border-left: 2px solid #D3D8DE;
+}
+.author {
+    color: #8F8F8F;
+}
+.footer {
+    gap: 32px;
+    margin-bottom: 32px;
+    .content__icon{
+        cursor: pointer;
+        
+    }
+}
+.item {
+    height: 1.5rem;
+}

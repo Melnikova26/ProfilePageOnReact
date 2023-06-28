@@ -1,0 +1,81 @@
+.top {
+    padding: 12px 32px 8px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  }
+  
+  .back_img {
+    width: 1.5rem;
+    height: 1.5rem;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .logo {
+    margin-top: 1px;
+    font-size: 1.125rem;
+    text-decoration: none;
+    color: #505050;
+  }
+  
+  .bottom {
+    padding: 0 32px;
+    background-color: #fafafa;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  }
+  .nav {
+    &_item {
+      height: 40px;
+      span {
+        margin-left: 28px;
+      }
+      &:hover {
+        background-color: #f1f1f1;
+      }
+    }
+    &_right {
+      .nav_item {
+        &:last-child {
+          width: 4.25rem;
+          height: 2.5rem;
+        }
+      }
+    }
+    &_activity {
+      background: url("./../../icons/menu.svg") 16px center/20px 20px no-repeat;
+    }
+    &_map {
+      background: url("./../../icons/map.svg") 16px center/20px 20px no-repeat;
+    }
+    &_time {
+      background: url("./../../icons/time.svg") 16px center/20px 20px no-repeat;
+    }
+    &_notes {
+      background: url("./../../icons/notes.svg") 16px center/20px 20px no-repeat;
+    }
+    &_friends {
+      background: url("./../../icons/friends.svg") 16px center/20px 20px no-repeat;
+    }
+    &_photos {
+      background: url("./../../icons/photos.svg") 16px center/20px 20px no-repeat;
+    }
+    &_settings {
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      background-image: url("./../../icons/settings.svg"),
+        url("./../../icons/arrow-down.svg");
+      background-position: 8px center, 36px center;
+      background-size: 20px 20px, 8.4px 5.3px;
+      background-repeat: no-repeat;
+    }
+  
+    &_link {
+      display: inline-block !important;
+      color: #505050;
+      line-height: 40px !important;
+      font-size: 14px !important;
+    }
+  }
+  
