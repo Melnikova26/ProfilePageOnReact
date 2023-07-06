@@ -140,7 +140,10 @@ const Header = () => {
               <li className={`py-0 px-2 nav-item ${st.nav_item}`}>
                 <a
                   className={`nav-link w-100 h-100 py-0 px-3 nav-link-color nav-link-hover ${st.nav_link} ${st.nav_settings}`}
-                  href="#no_scroll">&nbsp;</a>
+                  href="#no_scroll"
+                >
+                  &nbsp;
+                </a>
               </li>
             </ul>
           </div>
