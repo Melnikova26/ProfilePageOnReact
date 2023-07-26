@@ -1,0 +1,75 @@
+.profile {
+  gap: 32px;
+}
+.icon {
+  cursor: pointer;
+}
+.box {
+  background-color: #fff;
+}
+.info {
+  padding: 32px 50px;
+}
+.avatar {
+  width: 8.25rem;
+  height: 8.25rem;
+}
+.name {
+  font-size: 1.125rem;
+  line-height: 21px;
+}
+
+.item {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.item_icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.elem {
+  &:nth-child(4) {
+    border-bottom: 1px solid #d3d8de;
+  }
+}
+
+.circle {
+  width: 1.5rem;
+  height: 1rem;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  text-align: center;
+  color: #fff;
+}
+.events {
+  background-color: #47b091;
+}
+.connections {
+  background-color: #e33939;
+}
+.form {
+  &_item {
+    padding: 8px 16px 16px;
+  }
+  &_message {
+    height: 5.5rem;
+    border: 1px solid #d3d8de;
+    resize: none;
+    &::placeholder {
+      color: #8f8f8f;
+    }
+  }
+  &_button {
+    height: 2rem;
+    background-color: #5095ec !important;
+    border-radius: 4px !important;
+    font-weight: 500 !important;
+    font-size: 0.875rem !important;
+  }
+}
